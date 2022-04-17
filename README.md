@@ -1,7 +1,7 @@
 <h2>USER TRAFFIC LIMITER</h2><br>
 
-<b>#Usage:<b> <br>
-$limiter = new TrafficLimiter(); // Initiate class <br>
-$limiter->setLimit(100) // Set user max visitor (default 100) <br>
-        ->setBreakTime(2) // Set range time (default 2 seconds) <br>
-        ->activate(); // activate limiter 
+<b>#Usage:</b> <br>
+$limiter = new TrafficLimiter(); <em>// Initiate class</em> <br>
+$limiter->setLimit(100) <em>// Set user max visitor (default 100)</em> <br>
+        ->setBreakTime(2) <em>// Set range time (default 2 seconds)</em> <br>
+        ->activate(); <em>// activate limiter</em> 
