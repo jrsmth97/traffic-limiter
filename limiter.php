@@ -6,7 +6,7 @@ if (isset($_GET['success'])) {
 }
 
 class TrafficLimiter {
-    var $limit            = 2; // user limit
+    var $limit            = 100; // user limit
     var $defaultBreakTime = 2; // seconds
     var $newRec; // is new record
 
